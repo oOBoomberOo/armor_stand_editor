@@ -9,11 +9,11 @@ Installing datapack is the same on both singleplayer and server.
 3) Open `/datapacks/` folder (if it doesn't exists you can create it yourself)
 4) Put this datapack inside. (You don't have to unzip anything just place it there)
 5) Run command `/reload` (If you're running a bukkit/spigot/paper server you need to run `/minecraft:reload` or it might cause some glitch in your server)
-6) If the datapack is installed correctly you'll see this in advancement tab.
+6) If the datapack is installed correctly you'll see this in advancement tab.  
 ![datapack_installed](https://i.imgur.com/HClS0eG.png)
 
 # Usage
-- Editor Wand crafting recipe.
+- Editor Wand crafting recipe.  
 ![editor_wand_crafting_recipe](https://i.imgur.com/vhpIbp7.png)
 
 - Right clicking the joint with editor wand will put you into "Editing Mode", while in this mode you can move the part you select however you like.
