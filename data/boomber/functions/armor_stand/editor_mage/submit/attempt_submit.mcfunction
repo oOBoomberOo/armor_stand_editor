@@ -1,0 +1,2 @@
+execute if entity @s[tag=!boomber.armor_stand.editing] run function boomber:armor_stand/editor_mage/submit/submit_while_looking
+execute if entity @s[tag=boomber.armor_stand.editing] run function boomber:armor_stand/editor_mage/submit/submit_while_editing

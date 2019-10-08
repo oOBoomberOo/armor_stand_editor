@@ -1,0 +1,2 @@
+summon area_effect_cloud ~ ~ ~ {Tags: ['boomber.armor_stand.normal_joint'], Age: 0, Duration: 1}
+execute as @e[type=area_effect_cloud, tag=boomber.armor_stand.normal_joint] run function boomber:armor_stand/normal_joint/main

@@ -1,0 +1,1 @@
+summon area_effect_cloud ~ ~ ~ {Tags: ['boomber.armor_stand.unique_vector'], Age: 0, Duration: 1}
