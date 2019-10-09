@@ -17,7 +17,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
-								{"text": "\"A smart Armor Stand editor\" -Boomber, 2019", "color": "gray", "italic": false}
+								{"text": "Smart armor stand editor", "color": "gray", "italic": false}
 							]
 						},
 						{

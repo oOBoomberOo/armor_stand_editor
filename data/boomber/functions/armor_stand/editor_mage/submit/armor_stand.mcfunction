@@ -1,4 +1,4 @@
-execute as @e[type=armor_stand, tag=!boomber.armor_stand.editing, tag=!test.point, sort=nearest, limit=1, distance=..2.3] run tag @s add boomber.armor_stand.target_stand
+execute as @e[type=armor_stand, tag=!boomber.armor_stand.editing, tag=!global.ignore, sort=nearest, limit=1, distance=..2.3] run tag @s add boomber.armor_stand.target_stand
 
 function boomber:armor_stand/unique_vector/location
 scoreboard players operation #bb.ae.pos.x bb.variable = #bb.ae.result.x bb.variable

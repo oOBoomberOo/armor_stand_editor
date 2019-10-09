@@ -1,2 +1,2 @@
-execute if entity @e[type=armor_stand, tag=!boomber.armor_stand.editing, distance=..2] run function boomber:armor_stand/editor_mage/submit/armor_stand
+execute if entity @e[type=armor_stand, tag=!boomber.armor_stand.editing, tag=!global.ignore, distance=..2] run function boomber:armor_stand/editor_mage/submit/armor_stand
 execute as @s[distance=..5.5] if score #bb.ae.raycast bb.success matches 0 positioned ^ ^ ^0.1 run function boomber:armor_stand/editor_mage/submit/raycast
