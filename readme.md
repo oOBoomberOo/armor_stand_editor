@@ -19,3 +19,4 @@ Installing datapack is the same on both singleplayer and server.
 - Right-clicking the joint with editor wand will put you into "Editing Mode", while in this mode you can move the part you select however you like.
 - Left-clicking the joint with editor wand will toggle part relate to that joint. (Arm -> toggle `ShowArms`, Base Plate -> toggle `NoBasePlate`, Body -> toggle `Invisible`)
 - Left-clicking the joint with editor wand *while* in Editing mode will reset the part to default state
+- Sneak + Left-click the center of the body will toggle its size
