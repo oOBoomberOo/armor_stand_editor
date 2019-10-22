@@ -7,3 +7,4 @@ tag @s remove boomber.armor_stand.edit.right_leg
 tag @s remove boomber.armor_stand.edit.body
 tag @s remove boomber.armor_stand.edit.head
 tag @s remove boomber.armor_stand.edit.base_plate
+tag @s remove boomber.armor_stand.small

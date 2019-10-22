@@ -2,8 +2,10 @@ scoreboard objectives add bb.variable dummy
 scoreboard objectives add bb.calculation dummy
 scoreboard objectives add bb.success dummy
 scoreboard objectives add bb.config dummy
+
 scoreboard objectives add bb.ae.uid dummy
 scoreboard objectives add bb.ae.select minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add bb.ae.alt minecraft.custom:minecraft.sneak_time
 
 scoreboard players set #-1 bb.variable -1
 

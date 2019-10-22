@@ -1,3 +1,5 @@
+scoreboard players operation #bb.ae.sneaking bb.variable = @s bb.ae.alt
+
 execute as @e[type=armor_stand, tag=!boomber.armor_stand.editing, tag=!global.ignore, sort=nearest, limit=1, distance=..2.3] run tag @s add boomber.armor_stand.target_stand
 
 function boomber:armor_stand/unique_vector/location
