@@ -1,3 +1,3 @@
-execute store result score #bb.ae.invisible bb.success run data get entity @s Invisible
-execute if score #bb.ae.invisible bb.success matches 0 run data merge entity @s {Invisible: 1b}
-execute if score #bb.ae.invisible bb.success matches 1 run data merge entity @s {Invisible: 0b}
+execute store success entity @s Invisible byte 1 unless entity @s[nbt={Invisible: 1b}]
+
+execute if entity @s[nbt={Invisible: 1b}] run advancement grant @p[tag=boomber.armor_stand.target_editor] only boomber:armor_stand/story/spooky

@@ -1,4 +1,4 @@
-function boomber:armor_stand/part/target
+# function boomber:armor_stand/part/target
 
 function boomber:armor_stand/smart_stand/get_part/reset
 execute if score #bb.ae.part bb.success matches 0 run function boomber:armor_stand/part/check/left_arm

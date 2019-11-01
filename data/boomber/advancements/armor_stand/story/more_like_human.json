@@ -1,0 +1,15 @@
+{
+	"display": {
+		"title": "More Like Human",
+		"description": [{"text": "Remove base plate by Left-clicking armor stand's base plate"}],
+		"icon": {
+			"item": "minecraft:birch_sign"
+		}
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "boomber:armor_stand/story/smoll_armor_stand"
+}

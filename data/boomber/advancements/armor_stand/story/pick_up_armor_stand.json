@@ -1,0 +1,15 @@
+{
+	"display": {
+		"title": "Flying Armor Stand",
+		"description": [{"text": "Pick up armor stand by Right-Clicking armor stand's base plate"}],
+		"icon": {
+			"item": "minecraft:dark_oak_sign"
+		}
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "boomber:armor_stand/story/spooky"
+}

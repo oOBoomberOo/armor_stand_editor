@@ -8,3 +8,5 @@ execute if score #bb.ae.part bb.success matches 4 run tag @s add boomber.armor_s
 execute if score #bb.ae.part bb.success matches 5 run tag @s add boomber.armor_stand.edit.body
 execute if score #bb.ae.part bb.success matches 6 run tag @s add boomber.armor_stand.edit.head
 execute if score #bb.ae.part bb.success matches 7 run tag @s add boomber.armor_stand.edit.base_plate
+
+execute if score #bb.ae.part bb.success matches 7 run advancement grant @p[tag=boomber.armor_stand.target_editor] only boomber:armor_stand/story/pick_up_armor_stand

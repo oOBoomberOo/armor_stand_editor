@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Armor Stand Editor Wand",
+		"description": "2 Iron nuggets + 1 Stick in diagonal line",
+		"icon": {
+			"item": "minecraft:crafting_table"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:armor_stand/armor_stand_editor"
+}

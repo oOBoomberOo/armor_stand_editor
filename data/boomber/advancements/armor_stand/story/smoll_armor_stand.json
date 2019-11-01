@@ -1,0 +1,15 @@
+{
+	"display": {
+		"title": "Smoll Armor Stand",
+		"description": [{"text": "Shrink armor stand by Sneak + Left-clicking armor stand's body"}],
+		"icon": {
+			"item": "minecraft:oak_sign"
+		}
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "boomber:armor_stand/story/editor_wand"
+}

@@ -11,13 +11,13 @@
 						{
 							"function": "minecraft:set_name",
 							"name": [
-								{"text": "Editor Wand", "color": "aqua", "italic": false}
+								{"text": "Armor Stand Editor Wand", "color": "aqua", "italic": false}
 							]
 						},
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
-								{"text": "Smart armor stand editor", "color": "gray", "italic": false}
+								{"text": "Right-click joint to select", "color": "gray", "italic": false}
 							]
 						},
 						{

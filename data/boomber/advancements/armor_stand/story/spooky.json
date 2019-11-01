@@ -1,0 +1,15 @@
+{
+	"display": {
+		"title": "~Spooky~",
+		"description": [{"text": "Turn armor stand invisible by Left-clicking armor stand's body"}],
+		"icon": {
+			"item": "minecraft:acacia_sign"
+		}
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "boomber:armor_stand/story/reset_part"
+}
