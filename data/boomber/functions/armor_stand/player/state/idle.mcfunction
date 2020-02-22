@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.ctc{id: 'editor_wand', from: 'boomber:armor_stand'} run function boomber:armor_stand/player/change_state/equip
