@@ -1,0 +1,3 @@
+function boomber:armor_stand/selector/difference
+
+execute if score #bb.ae.rx bb.calc > #bb.ae.selector.min_difference bb.const if score #bb.ae.rx bb.calc < #bb.ae.selector.max_difference bb.const if score #bb.ae.ry bb.calc > #bb.ae.selector.min_difference bb.const if score #bb.ae.ry bb.calc < #bb.ae.selector.max_difference bb.const run scoreboard players operation #bb.ae.selector.state bb.variable = #bb.ae.selector.right_leg bb.enum

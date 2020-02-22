@@ -1,1 +1,0 @@
-summon area_effect_cloud ~ ~ ~ {Tags: ['boomber.armor_stand.part'], Age: 0, Duration: 1}

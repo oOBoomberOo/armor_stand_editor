@@ -1,5 +1,4 @@
 {
-	"type": "minecraft:item",
 	"pools": [
 		{
 			"rolls": 1,
@@ -10,23 +9,11 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": [
-								{"text": "Armor Stand Editor Wand", "color": "aqua", "italic": false}
-							]
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								{"text": "Right-click joint to select", "color": "gray", "italic": false}
-							]
+							"name": {"text": "Editor Wand"}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: \"editor_wand\", from: \"boomber:armor_stand\"}}"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments: [{id: \"minecraft:protection\", lvl: 0}], HideFlags: 1}"
+							"tag": "{ctc: {id: 'editor_wand', from: 'boomber:armor_stand'}}"
 						}
 					]
 				}
