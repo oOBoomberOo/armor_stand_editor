@@ -1,0 +1,1 @@
+data modify entity @s NoBasePlate set value 0b

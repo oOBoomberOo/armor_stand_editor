@@ -8,7 +8,7 @@ execute if score #bb.ae.control_state bb.variable = #bb.ae.player_state.idle bb.
 execute if score #bb.ae.control_state bb.variable = #bb.ae.player_state.idle bb.enum unless data entity @s SelectedItem.tag{ctc: {id: 'editor_wand', from: 'boomber:armor_stand'}} if data entity @s Inventory[{Slot: -106b}].tag{ctc: {id: 'editor_wand', from: 'boomber:armor_stand'}} run scoreboard players operation #bb.ae.control_state bb.variable = #bb.ae.player_state.axis_control bb.enum
 execute if score #bb.ae.control_state bb.variable = #bb.ae.player_state.idle bb.enum run function boomber:armor_stand/player/change_state/right_control/cancel
 
-execute anchored eyes positioned ^ ^ ^1.5 run function boomber:armor_stand/pointer/new
+execute anchored eyes positioned ^ ^ ^1.8 run function boomber:armor_stand/pointer/new
 execute as @e[tag=boomber.armor_stand.target] at @s run function boomber:armor_stand/pose/main
 
 execute if score @s bb.ae.right matches 1.. run function boomber:armor_stand/player/change_state/right_control/submit

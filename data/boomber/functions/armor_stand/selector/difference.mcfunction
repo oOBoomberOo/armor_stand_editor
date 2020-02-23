@@ -8,3 +8,5 @@ scoreboard players operation #bb.ae.rx bb.calc -= #bb.ae.selector.half_circle bb
 
 scoreboard players operation #bb.ae.ry bb.calc = #bb.ae.player.ry bb.variable
 scoreboard players operation #bb.ae.ry bb.calc += #bb.ae.ry bb.result
+
+particle flame

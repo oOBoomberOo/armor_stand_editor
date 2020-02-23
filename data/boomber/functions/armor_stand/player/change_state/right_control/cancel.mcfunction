@@ -5,6 +5,7 @@ data modify storage boomber:database/list database set from storage boomber:armo
 function boomber:database/id/index
 
 execute as @e[tag=boomber.armor_stand.target] run data modify entity @s Pose set from storage boomber:database/index_output output.pose
+execute as @e[tag=boomber.armor_stand.target] run data modify entity @s Pos set from storage boomber:database/index_output output.pos
 execute as @e[tag=boomber.armor_stand.target] at @s run function boomber:armor_stand/pose/drop
 
 function boomber:armor_stand/player/change_state/unequip

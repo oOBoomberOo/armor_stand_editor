@@ -1,1 +1,1 @@
-execute facing entity @e[tag=boomber.armor_stand.pointer, limit=1] feet run particle happy_villager ^ ^ ^1
+execute at @e[tag=boomber.armor_stand.pointer] run function boomber:armor_stand/teleporter/run
