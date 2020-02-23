@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"text": "Editor Wand"}
+							"name": {"text": "Editor Wand", "italic": false}
 						},
 						{
 							"function": "minecraft:set_nbt",

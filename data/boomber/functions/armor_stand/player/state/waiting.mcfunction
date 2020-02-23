@@ -3,3 +3,5 @@ execute unless data entity @s SelectedItem.tag.ctc{id: 'editor_wand', from: 'boo
 
 # `unequip` when player re-join the game
 execute if score @s bb.ae.leave matches 1.. run function boomber:armor_stand/player/change_state/unequip
+
+execute if score @s bb.ae.right matches 1.. run function boomber:armor_stand/player/change_state/right_control

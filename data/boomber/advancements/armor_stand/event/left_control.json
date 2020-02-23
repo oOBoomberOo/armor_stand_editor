@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"submit": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"is_projectile": false,
+						"is_lighting": false,
+						"is_magic": false,
+						"is_fire": false,
+						"is_explosion": false
+					},
+					"source_entity": {
+						"type": "minecraft:player",
+						"nbt": "{Tags: ['boomber.armor_stand.player.init']}"
+					}
+				},
+				"entity": {
+					"type": "minecraft:villager",
+					"nbt": "{Tags: ['boomber.armor_stand.detector']}"
+				}
+			}
+		}
+	},
+	"parent": "boomber:armor_stand/event/root",
+	"rewards": {
+		"function": "boomber:armor_stand/event/left_control"
+	}
+}
