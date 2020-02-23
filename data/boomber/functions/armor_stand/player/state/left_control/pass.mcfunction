@@ -1,6 +1,6 @@
 #define tag boomber.armor_stand.target
 #define tag boomber.armor_stand.selector
-tag @e[type=armor_stand, limit=1, sort=nearest] add boomber.armor_stand.selector
+tag @e[type=armor_stand, tag=!global.ignore, tag=!global.ignore.pos, limit=1, sort=nearest] add boomber.armor_stand.selector
 tag @s add boomber.armor_stand.target
 
 function boomber:armor_stand/selector/prepare/player_rotation
