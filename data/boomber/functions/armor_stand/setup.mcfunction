@@ -4,6 +4,7 @@ scoreboard objectives add bb.result dummy
 scoreboard objectives add bb.enum dummy
 scoreboard objectives add bb.const dummy
 scoreboard objectives add bb.ae.state dummy
+scoreboard objectives add bb.ae.joint dummy
 scoreboard objectives add bb.ae.uid dummy
 scoreboard objectives add bb.ae.leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add bb.ae.right minecraft.custom:minecraft.talked_to_villager
@@ -17,6 +18,7 @@ function boomber:armor_stand/const/lag_free_teleporter
 
 function boomber:armor_stand/enum/selector
 function boomber:armor_stand/enum/player_state
+function boomber:armor_stand/enum/boolean
 
 #define tag global.ignore
 #define tag global.ignore.pos
@@ -26,3 +28,13 @@ function boomber:armor_stand/enum/player_state
 #define team bb.no_collide
 team add bb.no_collide
 team modify bb.no_collide collisionRule never
+
+#define storage boomber:armor_stand/logs
+#> database structure:
+# {
+#   id: { b0: 0b, b1: 1b, b2: 0b, b3: 1b, ... },
+#   ...
+# }
+data merge storage boomber:armor_stand/logs {database: []}
+
+function boomber:database/test/run

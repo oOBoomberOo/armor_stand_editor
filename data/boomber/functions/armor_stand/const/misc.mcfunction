@@ -1,5 +1,5 @@
-#define entity #bb.ae.boolean
-scoreboard players set #bb.ae.boolean bb.const 2
+#define entity #bb.ae.binary
+scoreboard players set #bb.ae.binary bb.const 2
 
 #define entity #bb.ae.target_uid
 #define entity #bb.ae.current_uid
