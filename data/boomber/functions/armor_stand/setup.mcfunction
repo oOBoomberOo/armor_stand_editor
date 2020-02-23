@@ -11,15 +11,12 @@ scoreboard objectives add bb.ae.tp.x dummy
 scoreboard objectives add bb.ae.tp.y dummy
 scoreboard objectives add bb.ae.tp.z dummy
 
+function boomber:armor_stand/const/misc
 function boomber:armor_stand/const/selector
 function boomber:armor_stand/const/lag_free_teleporter
 
 function boomber:armor_stand/enum/selector
 function boomber:armor_stand/enum/player_state
-
-#define entity #bb.ae.target_uid
-#define entity #bb.ae.current_uid
-execute unless score #bb.ae.current_uid bb.ae.uid matches -2147483648..2147483647 run scoreboard players set #bb.ae.current_uid bb.ae.uid 0
 
 #define tag global.ignore
 #define tag global.ignore.pos
