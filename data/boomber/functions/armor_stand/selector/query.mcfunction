@@ -11,3 +11,6 @@ execute if entity @s[nbt={Small: 1b}] run function boomber:armor_stand/selector/
 
 execute at @p[tag=boomber.armor_stand.target] as @e[tag=boomber.armor_stand.vector, limit=1, sort=nearest] run scoreboard players operation #bb.ae.selector.state bb.variable = @s bb.ae.state
 function boomber:armor_stand/vector/clear
+
+scoreboard players reset #bb.ae.player.rx bb.variable
+scoreboard players reset #bb.ae.player.ry bb.variable

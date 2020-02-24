@@ -1,1 +1,2 @@
-execute at @e[tag=boomber.armor_stand.pointer] run function boomber:armor_stand/teleporter/run
+execute if score #bb.ae.grid_control bb.variable = #bb.ae.bool.false bb.enum run function boomber:armor_stand/pose/control/free_control/base_plate/free
+execute if score #bb.ae.grid_control bb.variable = #bb.ae.bool.true bb.enum run function boomber:armor_stand/pose/control/free_control/base_plate/grid

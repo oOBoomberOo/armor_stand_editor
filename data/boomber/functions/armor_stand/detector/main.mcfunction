@@ -8,3 +8,4 @@ execute as @a[tag=boomber.armor_stand.target] at @s anchored eyes positioned ^ ^
 
 execute unless entity @a[tag=boomber.armor_stand.target] run function boomber:armor_stand/detector/remove
 tag @a[tag=boomber.armor_stand.target] remove boomber.armor_stand.target
+scoreboard players reset #bb.ae.target_uid bb.ae.uid

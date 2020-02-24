@@ -8,3 +8,4 @@ execute as @e[tag=boomber.armor_stand.selector] at @s rotated ~ 0 run function b
 execute unless score #bb.ae.selector.state bb.variable = #bb.ae.selector.idle bb.enum run function boomber:armor_stand/player/state/left_control/pass
 
 tag @s remove boomber.armor_stand.target
+scoreboard players reset #bb.ae.selector.state bb.variable

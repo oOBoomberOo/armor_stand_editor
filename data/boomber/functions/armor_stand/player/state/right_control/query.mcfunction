@@ -9,3 +9,4 @@ execute if score #bb.ae.selector.state bb.variable = #bb.ae.selector.idle bb.enu
 execute unless score #bb.ae.selector.state bb.variable = #bb.ae.selector.idle bb.enum run function boomber:armor_stand/player/state/right_control/pass
 
 tag @s remove boomber.armor_stand.target
+scoreboard players reset #bb.ae.selector.state bb.variable

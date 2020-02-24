@@ -126,3 +126,20 @@ function boomber:database/id/index/swap_buffer
 
 data modify storage boomber:database/index_output output set from storage boomber:database/index_output output[0]
 data remove storage boomber:database/index_output output_buffer
+
+scoreboard players reset #bb.db.b0 bb.calc
+scoreboard players reset #bb.db.b1 bb.calc
+scoreboard players reset #bb.db.b2 bb.calc
+scoreboard players reset #bb.db.b3 bb.calc
+scoreboard players reset #bb.db.b4 bb.calc
+scoreboard players reset #bb.db.b5 bb.calc
+scoreboard players reset #bb.db.b6 bb.calc
+scoreboard players reset #bb.db.b7 bb.calc
+scoreboard players reset #bb.db.b8 bb.calc
+scoreboard players reset #bb.db.b9 bb.calc
+scoreboard players reset #bb.db.b10 bb.calc
+scoreboard players reset #bb.db.b11 bb.calc
+scoreboard players reset #bb.db.b12 bb.calc
+scoreboard players reset #bb.db.b13 bb.calc
+scoreboard players reset #bb.db.b14 bb.calc
+scoreboard players reset #bb.db.b15 bb.calc

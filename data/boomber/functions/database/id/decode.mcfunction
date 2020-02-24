@@ -71,3 +71,5 @@ execute store result storage boomber:database/decode_output output.b14 byte 1 ru
 scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
 execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
 execute store result storage boomber:database/decode_output output.b15 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+
+scoreboard players reset #bb.db.input bb.variable
