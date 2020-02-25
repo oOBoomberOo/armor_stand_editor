@@ -16,6 +16,7 @@ function boomber:armor_stand/const/misc
 function boomber:armor_stand/const/selector
 function boomber:armor_stand/const/lag_free_teleporter
 function boomber:armor_stand/const/right_control
+function boomber:armor_stand/const/armor_stand_hitbox
 
 function boomber:armor_stand/enum/selector
 function boomber:armor_stand/enum/player_state
