@@ -1,1 +1,1 @@
-tag @e[type=armor_stand, tag=!global.ignore, tag=!global.ignore.pos, tag=!boomber.armor_stand.posing, limit=1, sort=nearest, distance=..3] add boomber.armor_stand.selector
+tag @e[type=armor_stand, tag=!global.ignore, tag=!global.ignore.pos, tag=!global.ignore.kill, tag=!boomber.armor_stand.posing, limit=1, sort=nearest, distance=..3] add boomber.armor_stand.selector

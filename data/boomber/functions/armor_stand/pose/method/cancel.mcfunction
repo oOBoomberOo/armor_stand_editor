@@ -11,3 +11,5 @@ data modify entity @s Rotation set from storage boomber:database/index_output ou
 data modify storage boomber:armor_stand/logs database set from storage boomber:database/index_output leftover
 
 function boomber:armor_stand/pose/drop
+
+title @a[tag=boomber.armor_stand.player] actionbar [{"text": "Cancelled...", "color": "red"}]

@@ -3,6 +3,10 @@ scoreboard players operation @s bb.ae.state = #bb.ae.selector.state bb.variable
 
 #define tag boomber.armor_stand.posing
 tag @s add boomber.armor_stand.posing
+tag @s add global.ignore
+tag @s add global.ignore.kill
+tag @s add global.ignore.gui
+tag @s add global.ignore.pos
 
 function boomber:armor_stand/teleporter/update_coord
 
@@ -21,3 +25,4 @@ data modify storage boomber:armor_stand/logs database append from storage boombe
 data remove storage boomber:armor_stand/input data
 
 data modify entity @s Glowing set value 1b
+data modify entity @s Invulnerable set value 1b

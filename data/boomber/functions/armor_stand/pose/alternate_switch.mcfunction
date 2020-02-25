@@ -1,2 +1,0 @@
-scoreboard players operation #bb.ae.part bb.calc = @s bb.ae.state
-execute if score #bb.ae.part bb.calc = #bb.ae.selector.base_plate bb.enum run function boomber:armor_stand/pose/alternate_switch/base_plate
