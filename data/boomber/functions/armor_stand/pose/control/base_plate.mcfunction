@@ -1,0 +1,2 @@
+execute if score #bb.ae.alt_control bb.variable = #bb.ae.bool.false bb.enum run function boomber:armor_stand/pose/control/base_plate/free
+execute if score #bb.ae.alt_control bb.variable = #bb.ae.bool.true bb.enum run function boomber:armor_stand/pose/control/base_plate/grid

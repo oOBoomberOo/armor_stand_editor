@@ -1,1 +1,0 @@
-execute facing entity @e[tag=boomber.armor_stand.pointer, limit=1] feet run particle flame ^ ^ ^1

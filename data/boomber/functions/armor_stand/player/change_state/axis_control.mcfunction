@@ -1,1 +1,0 @@
-scoreboard players operation @s bb.ae.state = #bb.ae.player_state.axis_control bb.enum

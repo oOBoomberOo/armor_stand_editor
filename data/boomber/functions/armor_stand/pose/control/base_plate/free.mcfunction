@@ -1,0 +1,1 @@
+execute at @e[tag=boomber.armor_stand.pointer] run tp @s ~ ~ ~ facing entity @p[tag=boomber.armor_stand.player] eyes

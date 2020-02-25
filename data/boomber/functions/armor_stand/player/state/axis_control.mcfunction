@@ -1,1 +1,0 @@
-function boomber:armor_stand/player/change_state/right_control/cancel

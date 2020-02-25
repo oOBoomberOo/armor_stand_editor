@@ -15,7 +15,7 @@ scoreboard objectives add bb.ae.tp.z dummy
 function boomber:armor_stand/const/misc
 function boomber:armor_stand/const/selector
 function boomber:armor_stand/const/lag_free_teleporter
-function boomber:armor_stand/const/free_control
+function boomber:armor_stand/const/right_control
 
 function boomber:armor_stand/enum/selector
 function boomber:armor_stand/enum/player_state
@@ -36,6 +36,7 @@ team modify bb.no_collide collisionRule never
 #   id: { b0: 0b, b1: 1b, b2: 0b, b3: 1b, ... },
 #   ...
 # }
-data merge storage boomber:armor_stand/logs {database: []}
+execute unless data storage boomber:armor_stand/logs database run data merge storage boomber:armor_stand/logs {database: []}
+forceload add 0 0
 
 function boomber:database/test/run

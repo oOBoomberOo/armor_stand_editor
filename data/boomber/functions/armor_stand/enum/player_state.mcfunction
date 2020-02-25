@@ -10,9 +10,7 @@ scoreboard players set #bb.ae.player_state.left_control bb.enum 4
 scoreboard players set #bb.ae.player_state.right_control bb.enum 5
 #define entity #bb.ae.player_state.waiting
 scoreboard players set #bb.ae.player_state.waiting bb.enum 6
-#define entity #bb.ae.player_state.free_control
-scoreboard players set #bb.ae.player_state.free_control bb.enum 7
-#define entity #bb.ae.player_state.axis_control
-scoreboard players set #bb.ae.player_state.axis_control bb.enum 8
+#define entity #bb.ae.player_state.alternate_control 'Left-click' event in right_control mode
+scoreboard players set #bb.ae.player_state.alternate_control bb.enum 7
 #define entity #bb.ae.player_state.move_joint
-scoreboard players set #bb.ae.player_state.move_joint bb.enum 9
+scoreboard players set #bb.ae.player_state.move_joint bb.enum 8
