@@ -5,7 +5,7 @@ scoreboard players operation #bb.ae.pre.y bb.calc = @s bb.ae.tp.y
 #define entity #bb.ae.pre.z
 scoreboard players operation #bb.ae.pre.z bb.calc = @s bb.ae.tp.z
 
-tp @s ~ ~ ~
+tp @s ~ ~ ~ ~ ~
 function boomber:armor_stand/teleporter/update_coord
 
 #define entity #bb.ae.cur.x

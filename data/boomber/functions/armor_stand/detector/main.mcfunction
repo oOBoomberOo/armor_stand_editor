@@ -1,5 +1,4 @@
 scoreboard players operation #bb.ae.target_uid bb.ae.uid = @s bb.ae.uid
-data modify entity @s Gossips set value []
 
 #define tag boomber.armor_stand.target
 execute as @a[tag=boomber.armor_stand.player.init] if score @s bb.ae.uid = #bb.ae.target_uid bb.ae.uid run tag @s add boomber.armor_stand.target

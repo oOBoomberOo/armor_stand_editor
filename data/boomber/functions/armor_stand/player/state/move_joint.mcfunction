@@ -14,6 +14,9 @@ execute unless data entity @s SelectedItem.tag{ctc: {id: 'editor_wand', from: 'b
 execute as @e[tag=boomber.armor_stand.target] at @s run function boomber:armor_stand/pose/control
 execute if score @s bb.ae.right matches 1.. run function boomber:armor_stand/player/state/move_joint/submit
 
+# `unequip` when player re-join the game
+execute if score @s bb.ae.leave matches 1.. run function boomber:armor_stand/player/change_state/unequip
+
 function boomber:armor_stand/pointer/clear
 tag @e[tag=boomber.armor_stand.target] remove boomber.armor_stand.target
 tag @s remove boomber.armor_stand.player
