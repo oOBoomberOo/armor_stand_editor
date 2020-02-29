@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"editor_wand": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "boomber:armor_stand/editor_wand"
+			}
+		}
+	},
+	"parent": "boomber:armor_stand/event/root",
+	"rewards": {
+		"function": "boomber:armor_stand/event/recipe/editor_wand"
+	}
+}
