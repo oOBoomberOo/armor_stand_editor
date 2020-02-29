@@ -7,4 +7,4 @@ data modify storage boomber:armor_stand/logs database set from storage boomber:d
 
 function boomber:armor_stand/pose/drop
 
-playsound minecraft:block.note_block.harp voice @a[tag=boomber.armor_stand.player] ~ ~ ~ 1 1
+playsound entity.experience_orb.pickup voice @a[tag=boomber.armor_stand.player] ~ ~ ~ 1 1
