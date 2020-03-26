@@ -1,4 +1,4 @@
-[![](https://i.imgur.com/UjncKHc.png)](https://discord.gg/56ySADc)
+[![](https://i.imgur.com/lvZZouy.png)](https://discord.gg/56ySADc)
 
 # Armor Stand Editor
 Intuitive Armor Stand editing datapack. No mod or plugins required!
