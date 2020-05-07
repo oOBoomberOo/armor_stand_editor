@@ -6,14 +6,13 @@
 				"damage": {
 					"type": {
 						"is_projectile": false,
-						"is_lighting": false,
+						"is_lightning": false,
 						"is_magic": false,
 						"is_fire": false,
 						"is_explosion": false
 					},
 					"source_entity": {
-						"type": "minecraft:player",
-						"nbt": "{Tags: ['boomber.armor_stand.player.init']}"
+						"type": "minecraft:player"
 					}
 				},
 				"entity": {
