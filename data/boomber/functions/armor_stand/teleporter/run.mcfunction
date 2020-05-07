@@ -1,43 +1,43 @@
-#define entity #bb.ae.pre.x
-scoreboard players operation #bb.ae.pre.x bb.calc = @s bb.ae.tp.x
-#define entity #bb.ae.pre.y
-scoreboard players operation #bb.ae.pre.y bb.calc = @s bb.ae.tp.y
-#define entity #bb.ae.pre.z
-scoreboard players operation #bb.ae.pre.z bb.calc = @s bb.ae.tp.z
+#define entity pre.x
+scoreboard players operation pre.x bb.ae.calc = @s bb.ae.tp.x
+#define entity pre.y
+scoreboard players operation pre.y bb.ae.calc = @s bb.ae.tp.y
+#define entity pre.z
+scoreboard players operation pre.z bb.ae.calc = @s bb.ae.tp.z
 
 tp @s ~ ~ ~ ~ ~
 function boomber:armor_stand/teleporter/update_coord
 
-#define entity #bb.ae.cur.x
-scoreboard players operation #bb.ae.cur.x bb.calc = @s bb.ae.tp.x
-#define entity #bb.ae.cur.y
-scoreboard players operation #bb.ae.cur.y bb.calc = @s bb.ae.tp.y
-#define entity #bb.ae.cur.z
-scoreboard players operation #bb.ae.cur.z bb.calc = @s bb.ae.tp.z
+#define entity cur.x
+scoreboard players operation cur.x bb.ae.calc = @s bb.ae.tp.x
+#define entity cur.y
+scoreboard players operation cur.y bb.ae.calc = @s bb.ae.tp.y
+#define entity cur.z
+scoreboard players operation cur.z bb.ae.calc = @s bb.ae.tp.z
 
-#define entity #bb.ae.Δx
-scoreboard players operation #bb.ae.Δx bb.calc = #bb.ae.cur.x bb.calc
-scoreboard players operation #bb.ae.Δx bb.calc -= #bb.ae.pre.x bb.calc
-scoreboard players operation #bb.ae.Δx bb.calc *= #bb.ae.lftp.delta bb.const
-#define entity #bb.ae.Δy
-scoreboard players operation #bb.ae.Δy bb.calc = #bb.ae.cur.y bb.calc
-scoreboard players operation #bb.ae.Δy bb.calc -= #bb.ae.pre.y bb.calc
-scoreboard players operation #bb.ae.Δy bb.calc *= #bb.ae.lftp.delta bb.const
-#define entity #bb.ae.Δz
-scoreboard players operation #bb.ae.Δz bb.calc = #bb.ae.cur.z bb.calc
-scoreboard players operation #bb.ae.Δz bb.calc -= #bb.ae.pre.z bb.calc
-scoreboard players operation #bb.ae.Δz bb.calc *= #bb.ae.lftp.delta bb.const
+#define entity Δx
+scoreboard players operation Δx bb.ae.calc = cur.x bb.ae.calc
+scoreboard players operation Δx bb.ae.calc -= pre.x bb.ae.calc
+scoreboard players operation Δx bb.ae.calc *= #lftp.delta bb.ae.const
+#define entity Δy
+scoreboard players operation Δy bb.ae.calc = cur.y bb.ae.calc
+scoreboard players operation Δy bb.ae.calc -= pre.y bb.ae.calc
+scoreboard players operation Δy bb.ae.calc *= #lftp.delta bb.ae.const
+#define entity Δz
+scoreboard players operation Δz bb.ae.calc = cur.z bb.ae.calc
+scoreboard players operation Δz bb.ae.calc -= pre.z bb.ae.calc
+scoreboard players operation Δz bb.ae.calc *= #lftp.delta bb.ae.const
 
-execute store result entity @s Pos[0] double 0.001 run scoreboard players operation #bb.ae.cur.x bb.calc += #bb.ae.Δx bb.calc
-execute store result entity @s Pos[1] double 0.001 run scoreboard players operation #bb.ae.cur.y bb.calc += #bb.ae.Δy bb.calc
-execute store result entity @s Pos[2] double 0.001 run scoreboard players operation #bb.ae.cur.z bb.calc += #bb.ae.Δz bb.calc
+execute store result entity @s Pos[0] double 0.001 run scoreboard players operation cur.x bb.ae.calc += Δx bb.ae.calc
+execute store result entity @s Pos[1] double 0.001 run scoreboard players operation cur.y bb.ae.calc += Δy bb.ae.calc
+execute store result entity @s Pos[2] double 0.001 run scoreboard players operation cur.z bb.ae.calc += Δz bb.ae.calc
 
-scoreboard players reset #bb.ae.pre.x bb.calc
-scoreboard players reset #bb.ae.pre.y bb.calc
-scoreboard players reset #bb.ae.pre.z bb.calc
-scoreboard players reset #bb.ae.cur.x bb.calc
-scoreboard players reset #bb.ae.cur.y bb.calc
-scoreboard players reset #bb.ae.cur.z bb.calc
-scoreboard players reset #bb.ae.Δx bb.calc
-scoreboard players reset #bb.ae.Δy bb.calc
-scoreboard players reset #bb.ae.Δz bb.calc
+scoreboard players reset pre.x bb.ae.calc
+scoreboard players reset pre.y bb.ae.calc
+scoreboard players reset pre.z bb.ae.calc
+scoreboard players reset cur.x bb.ae.calc
+scoreboard players reset cur.y bb.ae.calc
+scoreboard players reset cur.z bb.ae.calc
+scoreboard players reset Δx bb.ae.calc
+scoreboard players reset Δy bb.ae.calc
+scoreboard players reset Δz bb.ae.calc

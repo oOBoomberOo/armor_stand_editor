@@ -1,2 +1,2 @@
-#define entity #bb.ae.lftp.delta
-scoreboard players set #bb.ae.lftp.delta bb.const 3
+#define entity #lftp.delta
+scoreboard players set #lftp.delta bb.ae.const 3

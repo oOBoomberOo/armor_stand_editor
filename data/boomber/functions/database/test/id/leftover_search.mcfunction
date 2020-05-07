@@ -1,4 +1,4 @@
-scoreboard players set #bb.db.input bb.variable 0
+scoreboard players set #bb.db.input bb.ae.var 0
 function boomber:database/id/decode
 data modify storage boomber:database/index_input id set from storage boomber:database/decode_output output
 data remove storage boomber:database/list database

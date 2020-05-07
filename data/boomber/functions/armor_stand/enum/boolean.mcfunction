@@ -1,4 +1,4 @@
-#define entity #bb.ae.bool.true
-scoreboard players set #bb.ae.bool.true bb.enum 1
-#define entity #bb.ae.bool.false
-scoreboard players set #bb.ae.bool.false bb.enum 0
+#define entity #bool.true
+scoreboard players set #bool.true bb.ae.enum 1
+#define entity #bool.false
+scoreboard players set #bool.false bb.ae.enum 0

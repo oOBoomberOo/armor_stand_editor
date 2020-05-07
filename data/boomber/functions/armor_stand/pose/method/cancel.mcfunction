@@ -1,4 +1,4 @@
-scoreboard players operation #bb.db.input bb.variable = #bb.ae.target_uid bb.ae.uid
+scoreboard players operation #bb.db.input bb.ae.var = #target_uid bb.ae.uid4
 function boomber:database/id/decode
 data modify storage boomber:database/index_input id set from storage boomber:database/decode_output output
 data modify storage boomber:database/list database set from storage boomber:armor_stand/logs database

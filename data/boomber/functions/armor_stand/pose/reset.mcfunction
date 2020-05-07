@@ -1,13 +1,13 @@
 # input:
 # - @s = armor_stand
-# - #bb.ae.part
+# - part
 
-#define entity #bb.ae.part
-#define entity #bb.ae.toggle_state
-execute if score #bb.ae.part bb.variable = #bb.ae.selector.head bb.enum run function boomber:armor_stand/pose/reset/head
-execute if score #bb.ae.part bb.variable = #bb.ae.selector.body bb.enum run function boomber:armor_stand/pose/reset/body
-execute if score #bb.ae.part bb.variable = #bb.ae.selector.right_arm bb.enum run function boomber:armor_stand/pose/reset/right_arm
-execute if score #bb.ae.part bb.variable = #bb.ae.selector.left_arm bb.enum run function boomber:armor_stand/pose/reset/left_arm
-execute if score #bb.ae.part bb.variable = #bb.ae.selector.right_leg bb.enum run function boomber:armor_stand/pose/reset/right_leg
-execute if score #bb.ae.part bb.variable = #bb.ae.selector.left_leg bb.enum run function boomber:armor_stand/pose/reset/left_leg
-execute if score #bb.ae.part bb.variable = #bb.ae.selector.base_plate bb.enum run function boomber:armor_stand/pose/reset/base_plate
+#define entity part
+#define entity toggle_state
+execute if score part bb.ae.var = #selector.head bb.ae.enum run function boomber:armor_stand/pose/reset/head
+execute if score part bb.ae.var = #selector.body bb.ae.enum run function boomber:armor_stand/pose/reset/body
+execute if score part bb.ae.var = #selector.right_arm bb.ae.enum run function boomber:armor_stand/pose/reset/right_arm
+execute if score part bb.ae.var = #selector.left_arm bb.ae.enum run function boomber:armor_stand/pose/reset/left_arm
+execute if score part bb.ae.var = #selector.right_leg bb.ae.enum run function boomber:armor_stand/pose/reset/right_leg
+execute if score part bb.ae.var = #selector.left_leg bb.ae.enum run function boomber:armor_stand/pose/reset/left_leg
+execute if score part bb.ae.var = #selector.base_plate bb.ae.enum run function boomber:armor_stand/pose/reset/base_plate

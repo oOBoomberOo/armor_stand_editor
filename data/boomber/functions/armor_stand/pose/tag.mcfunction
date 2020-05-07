@@ -1,5 +1,8 @@
-scoreboard players operation @s bb.ae.uid = #bb.ae.target_uid bb.ae.uid
-scoreboard players operation @s bb.ae.state = #bb.ae.selector.state bb.variable
+scoreboard players operation @s bb.ae.uid1 = #target_uid bb.ae.uid1
+scoreboard players operation @s bb.ae.uid2 = #target_uid bb.ae.uid2
+scoreboard players operation @s bb.ae.uid3 = #target_uid bb.ae.uid3
+scoreboard players operation @s bb.ae.uid4 = #target_uid bb.ae.uid4
+scoreboard players operation @s bb.ae.state = selector.state bb.ae.var
 
 #define tag boomber.armor_stand.posing
 tag @s add boomber.armor_stand.posing
@@ -10,7 +13,7 @@ tag @s add global.ignore.pos
 
 function boomber:armor_stand/teleporter/update_coord
 
-scoreboard players operation #bb.db.input bb.variable = @s bb.ae.uid
+scoreboard players operation #bb.db.input bb.ae.var = @s bb.ae.uid4
 function boomber:database/id/decode
 
 #define storage boomber:armor_stand/input

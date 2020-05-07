@@ -1,2 +1,2 @@
-#define entity #bb.ae.grid_step
-scoreboard players set #bb.ae.grid_step bb.const 225000
+#define entity #grid_step
+scoreboard players set #grid_step bb.ae.const 225000

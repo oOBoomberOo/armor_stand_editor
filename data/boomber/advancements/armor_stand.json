@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Armor Stand Editor",
+		"description": "Interactive armor stand pose",
+		"icon": {
+			"item": "minecraft:armor_stand"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

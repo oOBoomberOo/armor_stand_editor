@@ -1,4 +1,4 @@
-scoreboard players operation @s bb.ae.state = #bb.ae.player_state.right_control bb.enum
+scoreboard players operation @s bb.ae.state = #player.right_control bb.ae.enum
 scoreboard players set @s bb.ae.right 0
 function boomber:armor_stand/player/method/find_selector
 

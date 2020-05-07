@@ -1,11 +1,14 @@
-scoreboard objectives add bb.variable dummy
-scoreboard objectives add bb.calc dummy
-scoreboard objectives add bb.result dummy
-scoreboard objectives add bb.enum dummy
-scoreboard objectives add bb.const dummy
+scoreboard objectives add bb.ae.var dummy
+scoreboard objectives add bb.ae.calc dummy
+scoreboard objectives add bb.ae.result dummy
+scoreboard objectives add bb.ae.enum dummy
+scoreboard objectives add bb.ae.const dummy
 scoreboard objectives add bb.ae.state dummy
 scoreboard objectives add bb.ae.joint dummy
-scoreboard objectives add bb.ae.uid dummy
+scoreboard objectives add bb.ae.uid1 dummy
+scoreboard objectives add bb.ae.uid2 dummy
+scoreboard objectives add bb.ae.uid3 dummy
+scoreboard objectives add bb.ae.uid4 dummy
 scoreboard objectives add bb.ae.leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add bb.ae.right minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add bb.ae.tp.x dummy
@@ -39,5 +42,3 @@ team modify bb.no_collide collisionRule never
 # }
 execute unless data storage boomber:armor_stand/logs database run data merge storage boomber:armor_stand/logs {database: []}
 forceload add 0 0
-
-function boomber:database/test/run

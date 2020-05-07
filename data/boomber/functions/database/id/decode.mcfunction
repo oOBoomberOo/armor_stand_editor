@@ -9,67 +9,67 @@ data merge storage boomber:database/decode_output { output: {b0: 0b, b1: 0b, b2:
 
 #define entity #bb.db.input
 #define entity #bb.db.byte
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result storage boomber:database/decode_output output.b0 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result storage boomber:database/decode_output output.b0 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b1 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b1 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b2 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b2 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b3 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b3 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b4 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b4 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b5 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b5 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b6 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b6 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b7 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b7 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b8 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b8 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b9 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b9 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b10 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b10 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b11 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b11 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b12 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b12 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b13 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b13 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b14 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b14 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players operation #bb.db.byte bb.calc = #bb.db.input bb.variable
-execute store result score #bb.db.input bb.variable run scoreboard players operation #bb.db.byte bb.calc /= #bb.ae.binary bb.const
-execute store result storage boomber:database/decode_output output.b15 byte 1 run scoreboard players operation #bb.db.byte bb.calc %= #bb.ae.binary bb.const
+scoreboard players operation #bb.db.byte bb.ae.calc = #bb.db.input bb.ae.var
+execute store result score #bb.db.input bb.ae.var run scoreboard players operation #bb.db.byte bb.ae.calc /= #binary bb.ae.const
+execute store result storage boomber:database/decode_output output.b15 byte 1 run scoreboard players operation #bb.db.byte bb.ae.calc %= #binary bb.ae.const
 
-scoreboard players reset #bb.db.input bb.variable
+scoreboard players reset #bb.db.input bb.ae.var
