@@ -1,0 +1,23 @@
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+name: Create Release
+
+jobs:
+  build:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Release Datapack
+        uses: oOBoomberOo/datapack-pipeline@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          config: datapack.toml
+          tag_name: ${{ github.ref }}
+          draft: true
